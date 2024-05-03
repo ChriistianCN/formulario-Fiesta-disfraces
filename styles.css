@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #92C47C; /* Verde similar al color del pantano en Shrek */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4F4F4F; /* Gris oscuro */
+    text-align: center;
+    margin-top: 1%;
+}
+p{
+    color: #4F4F4F; /* Gris oscuro */
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #F0E68C; /* Amarillo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #4F4F4F; /* Gris oscuro */
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4682B4; /* Azul claro */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4169E1; /* Azul oscuro */
+}
+
+/* Estilo para el formulario */
+#formulario {
+    background-color: #FFD700; /* Amarillo */
+}
+
+/* Estilo para el nombre del personaje */
+#personaje {
+    background-color: #FFFFFF; /* Blanco */
+    color: #4F4F4F; /* Gris oscuro */
+}
+
+/* Estilo para el borde del formulario */
+#formulario {
+    border: 2px solid #228B22; /* Verde oscuro */
+}
+
+/*img logo*/
+.img-logo-shrek{
+  
+    mix-blend-mode: multiply;
+    max-width: 90%;
+    width: 35%;
+}
